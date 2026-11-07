@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="app_background">#FFF8E7</color>
+    <color name="yellow_soft">#FFE9A8</color>
+    <color name="yellow_deep">#FFC94D</color>
+    <color name="peach_light">#FFE2CF</color>
+    <color name="peach">#FFB38A</color>
+    <color name="peach_deep">#F28F5B</color>
+    <color name="brown">#3D2C1E</color>
+    <color name="brown_soft">#7A6552</color>
+    <color name="outline">#F3E2C0</color>
+    <color name="outline_strong">#E2C9A0</color>
+    <color name="within">#6FA66B</color>
+    <color name="over">#E4743F</color>
+</resources>

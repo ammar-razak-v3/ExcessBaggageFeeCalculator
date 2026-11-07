@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- suitcase body -->
+    <path android:fillColor="#FFFF9A62"
+        android:pathData="M39,40H69A8,8 0 0 1 77,48V72A8,8 0 0 1 69,80H39A8,8 0 0 1 31,72V48A8,8 0 0 1 39,40Z"/>
+    <!-- straps -->
+    <path android:fillColor="#FFE4743F" android:pathData="M42,40H46V80H42Z"/>
+    <path android:fillColor="#FFE4743F" android:pathData="M62,40H66V80H62Z"/>
+    <!-- highlight -->
+    <path android:fillColor="#00000000" android:strokeColor="#73FFFFFF" android:strokeWidth="3"
+        android:strokeLineCap="round" android:pathData="M35,52V70"/>
+    <!-- handle -->
+    <path android:fillColor="#00000000" android:strokeColor="#FF3D2C1E" android:strokeWidth="4"
+        android:strokeLineCap="round" android:strokeLineJoin="round"
+        android:pathData="M44,40V34A3.5,3.5 0 0 1 47.5,30.5H60.5A3.5,3.5 0 0 1 64,34V40"/>
+    <!-- wheels -->
+    <path android:fillColor="#FF3D2C1E" android:pathData="M38,83m-3,0a3,3 0 1 0 6,0a3,3 0 1 0 -6,0"/>
+    <path android:fillColor="#FF3D2C1E" android:pathData="M70,83m-3,0a3,3 0 1 0 6,0a3,3 0 1 0 -6,0"/>
+    <!-- weight-gauge badge -->
+    <path android:fillColor="#FFFFD166" android:strokeColor="#FFFFFFFF" android:strokeWidth="2.5"
+        android:pathData="M64,44a10,10 0 1 0 20,0a10,10 0 1 0 -20,0"/>
+    <path android:fillColor="#00000000" android:strokeColor="#FF3D2C1E" android:strokeWidth="1.6"
+        android:strokeLineCap="round" android:pathData="M68.5,47A6,6 0 0 1 79.5,47"/>
+    <path android:fillColor="#00000000" android:strokeColor="#FF3D2C1E" android:strokeWidth="2"
+        android:strokeLineCap="round" android:pathData="M74,45L77.2,40.6"/>
+    <path android:fillColor="#FF3D2C1E" android:pathData="M74,45m-1.6,0a1.6,1.6 0 1 0 3.2,0a1.6,1.6 0 1 0 -3.2,0"/>
+</vector>

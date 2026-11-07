@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.ExcessBaggageFee" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/yellow_deep</item>
+        <item name="colorOnPrimary">@color/brown</item>
+        <item name="colorPrimaryContainer">@color/yellow_soft</item>
+        <item name="colorOnPrimaryContainer">@color/brown</item>
+        <item name="colorSecondary">@color/peach_deep</item>
+        <item name="colorOnSecondary">@color/brown</item>
+        <item name="colorSecondaryContainer">@color/peach_light</item>
+        <item name="colorOnSecondaryContainer">@color/brown</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/brown</item>
+        <item name="colorOnSurfaceVariant">@color/brown_soft</item>
+        <item name="colorOutline">@color/outline_strong</item>
+        <item name="android:colorBackground">@color/app_background</item>
+        <item name="android:statusBarColor">@color/app_background</item>
+        <item name="android:navigationBarColor">@color/app_background</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="textInputStyle">@style/Widget.Lugg.TextInput</item>
+    </style>
+
+    <style name="Widget.Lugg.TextInput" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">16dp</item>
+        <item name="boxCornerRadiusTopEnd">16dp</item>
+        <item name="boxCornerRadiusBottomStart">16dp</item>
+        <item name="boxCornerRadiusBottomEnd">16dp</item>
+        <item name="boxStrokeColor">@color/box_stroke</item>
+        <item name="hintTextColor">@color/brown_soft</item>
+        <item name="startIconTint">@color/brown_soft</item>
+        <item name="helperTextTextColor">@color/brown_soft</item>
+    </style>
+
+    <style name="Widget.Lugg.Toggle" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="backgroundTint">@color/toggle_bg</item>
+        <item name="android:textColor">@color/brown</item>
+        <item name="strokeColor">@color/outline_strong</item>
+        <item name="rippleColor">@color/peach_light</item>
+    </style>
+
+    <style name="Widget.Lugg.Chip" parent="Widget.Material3.Chip.Filter">
+        <item name="chipBackgroundColor">@color/chip_bg</item>
+        <item name="chipStrokeColor">@color/outline_strong</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="android:textColor">@color/brown</item>
+        <item name="checkedIconTint">@color/brown</item>
+    </style>
+</resources>
