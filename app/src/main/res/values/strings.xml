@@ -3,7 +3,7 @@
     <string name="app_name">BagFee</string>
     <string name="app_subtitle">Bag Fee Calculator</string>
     <string name="tagline">Know your bag fee before you go.</string>
-    <string name="app_url">https://github.com/yourusername/BagFee</string>
+    <string name="app_url">https://github.com/ammar-razak-v3/ExcessBaggageFeeCalculator</string>
 
     <!-- Menu -->
     <string name="action_share">Share</string>
